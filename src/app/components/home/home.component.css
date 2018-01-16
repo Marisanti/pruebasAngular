@@ -1,0 +1,104 @@
+
+
+/*===== NAV HOME - INICIO =====*/
+.home-nav{
+	position: absolute;
+	width:5%;
+	top:50%;
+	transform: translateY(-50%);
+	z-index: 9;
+	text-align: center;
+}
+.home-nav ul{
+
+}
+.home-nav ul > li{
+
+}
+/*===== NAV HOME - FINAL =====*/
+
+
+
+main.home{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	transition: all 0.6s;
+}
+
+.home section {
+	width:100%;
+	height: 100%;
+	display: flex;
+}
+.sec-izq-content{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+
+}
+
+/*===== HOME 01 =====*/
+.home-01{
+
+}
+.home-01 .home-izquierda{
+	margin-left: 5%;
+	width: 40%;
+}
+.home-01 .home-derecha{
+	width: 55%;
+	background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/images/home-01.png");
+}
+
+/*===== HOME 02 =====*/
+.home-02{
+
+}
+.home-02 .home-izquierda{
+	margin-left: 5%;
+	width: 40%;
+}
+.home-02 .home-derecha{
+	width: 55%;
+	background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/images/home-02.png");
+}
+
+/*===== HOME 03 =====*/
+.home-03{
+
+}
+.home-03 .home-izquierda{
+	margin-left: 5%;
+	width: 40%;	
+}
+.home-03 .home-derecha{
+	width: 55%;
+	background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/images/home-03.png");
+}
+
+/*===== HOME 04 =====*/
+.home-04{
+
+}
+.home-04 .home-izquierda{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 40%;
+}
+.home-04 .home-derecha{
+	width: 50%;
+	background-color: green;
+}
