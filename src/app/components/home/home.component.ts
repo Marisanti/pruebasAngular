@@ -140,9 +140,14 @@ export class HomeComponent implements OnInit {
 		}
 
 		/* Crear menu de bolas */
+		menuLateral();
 		function menuLateral(){
-			var diapositivas:number = document.querySelectorAll("main.home > section").length
-			console.log(diapositivas)
+			var diap:number = document.querySelectorAll("main.home > section").length
+			var i
+			for(i=1; i<=diap; i++){
+				console.log(i);
+
+			}
 		}
 
   }//fin ngOnInit
