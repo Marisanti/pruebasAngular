@@ -1,4 +1,79 @@
+/*RESET CSS*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/*===== BODY =====*/
+html, body {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+	position: absolute;
+	width:100%;
+	z-index: 10;
+	padding: 15px;
+}
+
+/*HEADER IZQUIERDA*/
+header .header-izquierda{
+	float: left;
+	width:45%;
+	padding-right: 15px;
+}
+
+.header-logo{
+	float: left;
+}
+.header-buscador{
+	float: right;
+}
+
+/* HEADER DERECHA*/
+header .header-derecha{
+	float: right;
+	width:55%;
+}
+ul.nav-botones{
+	float:right;
+}
+ul.nav-botones > li {
+	display: inline-block;
+}
+ul.nav-botones > li a {
+	font-size: 140%;
+	color:#FFFFFF;
+	margin-left: 10px;
+}
 
 /*===== NAV HOME - INICIO =====*/
 .home-nav{
