@@ -135,7 +135,7 @@ export class HomeComponent implements OnInit {
 				elemento.setAttribute("data-step",d)
 				elemento.style.transform = `translate3d(0,-${h*(d-1)}px,0)`;
 				tiempo = true;
-				setTimeout(function(){tiempo = false}, 700)
+				setTimeout(function(){tiempo = false}, 800)
 			}
 		}
 
